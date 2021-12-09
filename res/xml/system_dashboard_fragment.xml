@@ -36,10 +36,23 @@
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <Preference
+	android:key="gaming_mode"
+	android:title="@string/game_space_title"
+	android:icon="@drawable/ic_settings_gamespace"
+	android:summary="@string/game_space_summary"
+	android:order="-240">
+
+	<intent
+	    android:action="android.intent.action.MAIN"
+	    android:targetPackage="io.chaldeaprjkt.gamespace"
+	    android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+    </Preference>
+
+    <Preference
         android:key="date_time_settings"
         android:title="@string/date_and_time"
         android:icon="@drawable/ic_settings_date_time"
-        android:order="-240"
+        android:order="-230"
         android:fragment="com.android.settings.datetime.DateTimeSettings"
         settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
 
