@@ -103,6 +103,7 @@ android_library {
         "co.aospa.framework",
         "columbus-settingsgoogle",
         "powerusagefeaturegoogle",
+        "VendorSupport-Libs",
     ],
 
     libs: [
