@@ -274,4 +274,16 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+
+    <!-- Model and Hardware -->
+    <string name="aospa_processor_title">Processor</string>
+    <string name="aospa_storage_code_title">Storage</string>
+    <string name="aospa_battery_type_title">Battery</string>
+    <string name="aospa_screen_title">Screen</string>
+    <string name="net_info">Network</string>
+    <string name="mod_info">@string/model_info</string>
+    <string name="id_info">Identifiers</string>
+    <string name="model_summary">Model, phone number, IMEI, etc</string>
+    <string name="model_name">Device status</string>
+    <string name="legal_summary">Licenses and legal</string>
 </resources>
