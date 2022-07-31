@@ -210,4 +210,7 @@
 
     <!-- Battery error text color -->
     <color name="battery_info_error_color_black">@*android:color/primary_text_default_material_light</color>
+
+    <color name="pa_bg">@android:color/system_accent1_0</color>
+    <color name="homepage_subicon_bg">@*android:color/system_neutral1_900</color>
 </resources>
