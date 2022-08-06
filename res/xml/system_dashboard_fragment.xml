@@ -28,10 +28,27 @@
         android:fragment="com.android.settings.language.LanguageAndInputSettings"/>
 
     <Preference
+	android:key="statusbar_category"
+	android:title="@string/statusbar_title"
+	android:summary="@string/statusbar_settings_summary"
+	android:order="-250"
+	android:fragment="com.android.settings.system.StatusBarSettings"
+	android:icon="@drawable/ic_settings_statusbar"/>
+
+    <Preference
+	android:key="quicksettings_category"
+	android:title="@string/quicksettings_title"
+	android:summary="@string/quick_settings_summary"
+	android:order="-240"
+	android:fragment="com.android.settings.system.QuickSettings"
+	android:icon="@drawable/ic_settings_quicksettings"/>
+
+    <Preference
         android:key="gesture_settings"
         android:title="@string/gesture_preference_title"
+        android:summary="@string/gesture_settings_summary"
         android:icon="@drawable/ic_settings_gestures"
-        android:order="-250"
+        android:order="-230"
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
@@ -40,13 +57,21 @@
 	android:title="@string/game_space_title"
 	android:icon="@drawable/ic_settings_gamespace"
 	android:summary="@string/game_space_summary"
-	android:order="-240">
+	android:order="-220">
 
 	<intent
 	    android:action="android.intent.action.MAIN"
 	    android:targetPackage="io.chaldeaprjkt.gamespace"
 	    android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
+
+    <Preference
+	android:key="misc_category"
+	android:title="@string/misc_title"
+	android:summary="@string/misc_settings_summary"
+	android:order="-210"
+	android:fragment="com.android.settings.system.MiscSettings"
+	android:icon="@drawable/ic_settings_misc"/>
 
     <Preference
         android:key="date_time_settings"
