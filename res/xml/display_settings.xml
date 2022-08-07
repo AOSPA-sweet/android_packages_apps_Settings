@@ -86,12 +86,6 @@
             android:fragment="com.android.settings.display.ScreenZoomSettings"
             settings:keywords="@string/keywords_display_size"/>
 
-        <Preference
-            android:key="icon_manager"
-            android:title="@string/icon_manager_title"
-            android:summary="@string/icon_manager_summary">
-            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
-        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -121,12 +115,6 @@
             android:fragment="com.android.settings.display.SmartAutoRotatePreferenceFragment"
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.SmartAutoRotatePreferenceController"/>
-
-        <co.aospa.framework.preference.SystemSettingSwitchPreference
-            android:key="double_tap_sleep_gesture"
-            android:title="@string/double_tap_sleep_title"
-            android:summary="@string/double_tap_sleep_summary"
-            android:defaultValue="false" />
 
         <SwitchPreference
             android:key="display_white_balance"
