@@ -25,6 +25,12 @@
 	<intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
     </Preference>
 
+    <Preference
+	android:key="clock_settings"
+	android:title="@string/clocksettings_title"
+	android:summary="@string/clocksettings_summary"
+	android:fragment="com.android.settings.system.ClockSettings" />
+
     <!-- Network Traffic -->
         <com.aospa.support.preferences.SystemSettingMasterSwitchPreference
             android:key="network_traffic_state"
