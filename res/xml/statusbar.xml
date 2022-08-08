@@ -30,8 +30,14 @@
             android:key="network_traffic_state"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
-            android:fragment="com.aospa.lab.fragments.NetworkTraffic"
+            android:fragment="com.android.settings.system.NetworkTraffic"
             android:defaultValue="false" />
+
+        <Preference 
+	    android:key="statusbar_battery"
+	    android:title="@string/battery_percent_title" 
+            android:summary="@string/battery_percent_summary"
+            android:fragment="com.android.settings.system.StatusBarBatterySettings"/>
 
     <com.aospa.support.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
