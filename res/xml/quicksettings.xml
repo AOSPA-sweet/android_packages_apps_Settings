@@ -23,7 +23,7 @@
             android:key="qs_show_brightness"
             android:title="@string/qs_show_brightness_title"
             android:summary="@string/qs_show_brightness_summary"
-            android:fragment="com.aospa.lab.fragments.BrightnessSliderSettings"
+            android:fragment="com.android.settings.system.BrightnessSliderSettings"
             android:defaultValue="true" />
     
     <com.aospa.support.preferences.SecureSettingSwitchPreference
