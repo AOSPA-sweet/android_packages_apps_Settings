@@ -318,9 +318,10 @@
     <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
 
-    <!-- Black theme -->
-    <string name="system_black_theme_title">Use Black theme</string> 
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <!-- Color Palettes theme -->
+    <string name="color_palette_theme_title">System color palettes</string>
+    <string name="black_theme">Black Theme</string>
+    <string name="vivid_theme">Vivid Theme</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
